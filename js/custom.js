@@ -113,11 +113,12 @@
     Countdown Clock
     ................................................. */
 	function makeTimer() {
-		var endTime = new Date("17 april 2022 10:45:00 GMT+01:00");			
+		var endTime = new Date("17 april 2022 07:30:00 GMT+05:30");		
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
 		now = (Date.parse(now) / 1000);
+
 
 		var timeLeft = endTime - now;
 
